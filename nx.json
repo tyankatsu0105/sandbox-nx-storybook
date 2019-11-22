@@ -1,0 +1,24 @@
+{
+  "npmScope": "tyankatsu",
+  "implicitDependencies": {
+    "workspace.json": "*",
+    "package.json": "*",
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "client": {
+      "tags": []
+    },
+    "client-e2e": {
+      "tags": []
+    },
+    "components": {
+      "tags": []
+    },
+    "components-e2e": {
+      "tags": []
+    }
+  }
+}

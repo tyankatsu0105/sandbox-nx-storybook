@@ -1,0 +1,26 @@
+import { Preview, Story, Props } from '@storybook/addon-docs/blocks';
+
+import { ButtonGreen } from './ButtonGreen';
+
+<Meta
+  title="Button/ButtonGreen"
+  parameters={{
+    order: 30,
+  }}
+/>
+
+# ButtonGreen
+
+greenって書いてます
+
+## Props
+
+<Props of={ButtonGreen} />
+
+## Primary
+
+<Preview withSource="open">
+  <Story name="Show">
+    <ButtonGreen>green</ButtonGreen>
+  </Story>
+</Preview>

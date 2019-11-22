@@ -1,0 +1,29 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "lib": ["es2019", "dom", "dom.iterable"],
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "jsx": "react",
+    "esModuleInterop": true,
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "esnext",
+    "module": "esnext",
+    "typeRoots": ["types", "node_modules/@types"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@tyankatsu/components": ["libs/components/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"],
+  "esModuleInterop": true,
+  "files": ["./types/mdx.d.ts"]
+}
